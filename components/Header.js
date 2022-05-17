@@ -40,7 +40,7 @@ const {data : session} = useSession();
             height="40"
             layout="fixed"
             />
-            <p className="font-semibold pr-3 whitespace-nowrap">{session.user.name}</p>
+            <p className="font-semibold pr-3 hidden lg:inline-flex whitespace-nowrap">{session.user.name}</p>
             <ViewGridIcon className="icon"/>
             <ChatIcon className="icon"/>
             <BellIcon className="icon"/>
